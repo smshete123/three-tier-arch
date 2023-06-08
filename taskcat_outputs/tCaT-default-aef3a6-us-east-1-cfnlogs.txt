@@ -1,0 +1,214 @@
+-----------------------------------------------------------------------------
+Region: us-east-1
+StackName: tCaT-default-aef3a6
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [BastionStack].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId    ResourceStatusReason
+--------------------------------  ------------------  --------------------------  -------------------  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-06-08 16:26:29.551000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-default-aef3a6  The following resource(s) failed to create: [BastionStack].
+2023-06-08 16:26:28.849000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  BastionStack         Embedded stack arn:aws:cloudformation:us-east-1:189873127363:stack/tCaT-default-aef3a6-BastionStack-7AICS11TLZB0/cb2deb30-0618-11ee-8fec-0ea25af41d31 was not successfully created: The following resource(s) failed to create: [EIP1].
+2023-06-08 16:26:03.660000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  WorkloadStack
+2023-06-08 16:23:26.017000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  WorkloadStack        Resource creation Initiated
+2023-06-08 16:23:25.895000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  BastionStack         Resource creation Initiated
+2023-06-08 16:23:25.138000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  WorkloadStack
+2023-06-08 16:23:24.776000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  BastionStack
+2023-06-08 16:23:23.457000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  VPCStack
+2023-06-08 16:19:21.495000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack             Resource creation Initiated
+2023-06-08 16:19:20.124000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack
+2023-06-08 16:19:15.566000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-default-aef3a6  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 08. June 2023 04:27PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: us-east-1
+StackName: tCaT-default-aef3a6-VPCStack-TWDLPGPY3M5
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                           LogicalResourceId                         ResourceStatusReason
+--------------------------------  ------------------  -------------------------------------  ----------------------------------------  ---------------------------
+2023-06-08 16:22:56.559000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack             tCaT-default-aef3a6-VPCStack-TWDLPGPY3M5
+2023-06-08 16:22:52.019000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PrivateSubnet1ARoute
+2023-06-08 16:22:46.971000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PrivateSubnet2ARoute
+2023-06-08 16:22:36.340000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet1ARoute                      Resource creation Initiated
+2023-06-08 16:22:34.995000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet1ARoute
+2023-06-08 16:22:31.826000+00:00  CREATE_COMPLETE     AWS::EC2::NatGateway                   NATGateway1
+2023-06-08 16:22:31.506000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet2ARoute                      Resource creation Initiated
+2023-06-08 16:22:30.326000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet2ARoute
+2023-06-08 16:22:26.534000+00:00  CREATE_COMPLETE     AWS::EC2::NatGateway                   NATGateway2
+2023-06-08 16:20:51.488000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway1                               Resource creation Initiated
+2023-06-08 16:20:51.088000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway2                               Resource creation Initiated
+2023-06-08 16:20:50.084000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway1
+2023-06-08 16:20:49.818000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway2
+2023-06-08 16:20:46.564000+00:00  CREATE_COMPLETE     AWS::EC2::EIP                          NAT1EIP
+2023-06-08 16:20:46.134000+00:00  CREATE_COMPLETE     AWS::EC2::EIP                          NAT2EIP
+2023-06-08 16:20:45.301000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PublicSubnetRoute
+2023-06-08 16:20:30.829000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT1EIP                                   Resource creation Initiated
+2023-06-08 16:20:30.320000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT2EIP                                   Resource creation Initiated
+2023-06-08 16:20:29.858000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PublicSubnetRoute                         Resource creation Initiated
+2023-06-08 16:20:29.262000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PublicSubnetRoute
+2023-06-08 16:20:29.228000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT1EIP
+2023-06-08 16:20:28.824000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT2EIP
+2023-06-08 16:20:25.895000+00:00  CREATE_COMPLETE     AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment
+2023-06-08 16:20:24.026000+00:00  CREATE_COMPLETE     AWS::EC2::VPCEndpoint                  S3VPCEndpoint
+2023-06-08 16:20:18.716000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation
+2023-06-08 16:20:10.405000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment                      Resource creation Initiated
+2023-06-08 16:20:09.763000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment
+2023-06-08 16:20:08.422000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCEndpoint                  S3VPCEndpoint                             Resource creation Initiated
+2023-06-08 16:20:08.140000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation      Resource creation Initiated
+2023-06-08 16:20:06.828000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCEndpoint                  S3VPCEndpoint
+2023-06-08 16:20:06.427000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation
+2023-06-08 16:20:05.393000+00:00  CREATE_COMPLETE     AWS::EC2::InternetGateway              InternetGateway
+2023-06-08 16:20:01.991000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation
+2023-06-08 16:20:01.727000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable
+2023-06-08 16:20:01.692000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation        Resource creation Initiated
+2023-06-08 16:20:01.672000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation
+2023-06-08 16:20:01.577000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation
+2023-06-08 16:20:01.279000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation        Resource creation Initiated
+2023-06-08 16:20:01.155000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation      Resource creation Initiated
+2023-06-08 16:20:00.144000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation
+2023-06-08 16:19:59.788000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation
+2023-06-08 16:19:59.509000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation
+2023-06-08 16:19:56.643000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable
+2023-06-08 16:19:56.408000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PublicSubnetRouteTable
+2023-06-08 16:19:50.185000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PublicSubnet2
+2023-06-08 16:19:49.803000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PublicSubnet1
+2023-06-08 16:19:48.680000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PrivateSubnet1A
+2023-06-08 16:19:48.564000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PrivateSubnet2A
+2023-06-08 16:19:47.281000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet2                             Resource creation Initiated
+2023-06-08 16:19:46.970000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet1                             Resource creation Initiated
+2023-06-08 16:19:46.341000+00:00  CREATE_COMPLETE     AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation
+2023-06-08 16:19:46.080000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable                 Resource creation Initiated
+2023-06-08 16:19:46.063000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation                 Resource creation Initiated
+2023-06-08 16:19:45.988000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet1A                           Resource creation Initiated
+2023-06-08 16:19:45.896000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable                 Resource creation Initiated
+2023-06-08 16:19:45.877000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet2
+2023-06-08 16:19:45.850000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PublicSubnetRouteTable                    Resource creation Initiated
+2023-06-08 16:19:45.757000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet2A                           Resource creation Initiated
+2023-06-08 16:19:45.609000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet1
+2023-06-08 16:19:44.883000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation
+2023-06-08 16:19:44.734000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable
+2023-06-08 16:19:44.683000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable
+2023-06-08 16:19:44.652000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PublicSubnetRouteTable
+2023-06-08 16:19:44.481000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet2A
+2023-06-08 16:19:44.274000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet1A
+2023-06-08 16:19:41.386000+00:00  CREATE_COMPLETE     AWS::EC2::VPC                          VPC
+2023-06-08 16:19:40.201000+00:00  CREATE_COMPLETE     AWS::EC2::DHCPOptions                  DHCPOptions
+2023-06-08 16:19:30.266000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC                          VPC                                       Resource creation Initiated
+2023-06-08 16:19:29.544000+00:00  CREATE_IN_PROGRESS  AWS::EC2::InternetGateway              InternetGateway                           Resource creation Initiated
+2023-06-08 16:19:29.379000+00:00  CREATE_IN_PROGRESS  AWS::EC2::DHCPOptions                  DHCPOptions                               Resource creation Initiated
+2023-06-08 16:19:28.564000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC                          VPC
+2023-06-08 16:19:28.406000+00:00  CREATE_IN_PROGRESS  AWS::EC2::InternetGateway              InternetGateway
+2023-06-08 16:19:27.981000+00:00  CREATE_IN_PROGRESS  AWS::EC2::DHCPOptions                  DHCPOptions
+2023-06-08 16:19:21.107000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack             tCaT-default-aef3a6-VPCStack-TWDLPGPY3M5  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 08. June 2023 04:27PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: us-east-1
+StackName: tCaT-default-aef3a6-WorkloadStack-4AW8Y3Q1C4
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                               LogicalResourceId                             ResourceStatusReason
+--------------------------------  ------------------  -----------------------------------------  --------------------------------------------  ---------------------------------------------------------
+2023-06-08 16:25:43.633000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack                 tCaT-default-aef3a6-WorkloadStack-4AW8Y3Q1C4
+2023-06-08 16:25:42.330000+00:00  CREATE_COMPLETE     AWS::CloudWatch::Alarm                     WebServerCPUAlarmLow
+2023-06-08 16:25:42.281000+00:00  CREATE_COMPLETE     AWS::CloudWatch::Alarm                     WebServerCPUAlarmHigh
+2023-06-08 16:25:42.007000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm                     WebServerCPUAlarmLow                          Resource creation Initiated
+2023-06-08 16:25:41.991000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm                     WebServerCPUAlarmHigh                         Resource creation Initiated
+2023-06-08 16:25:41.763000+00:00  CREATE_COMPLETE     AWS::ElasticLoadBalancingV2::Listener      ALBListener
+2023-06-08 16:25:41.644000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm                     WebServerCPUAlarmHigh
+2023-06-08 16:25:41.599000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm                     WebServerCPUAlarmLow
+2023-06-08 16:25:41.498000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::Listener      ALBListener                                   Resource creation Initiated
+2023-06-08 16:25:40.506000+00:00  CREATE_COMPLETE     AWS::AutoScaling::ScalingPolicy            WebServerScaleUpPolicy
+2023-06-08 16:25:40.269000+00:00  CREATE_COMPLETE     AWS::AutoScaling::ScalingPolicy            WebServerScaleDownPolicy
+2023-06-08 16:25:40.207000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::Listener      ALBListener
+2023-06-08 16:25:38.706000+00:00  CREATE_COMPLETE     AWS::ElasticLoadBalancingV2::LoadBalancer  ApplicationLoadBalancer
+2023-06-08 16:25:34.847000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::ScalingPolicy            WebServerScaleUpPolicy                        Resource creation Initiated
+2023-06-08 16:25:34.646000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::ScalingPolicy            WebServerScaleDownPolicy                      Resource creation Initiated
+2023-06-08 16:25:33.457000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::ScalingPolicy            WebServerScaleUpPolicy
+2023-06-08 16:25:33.392000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::ScalingPolicy            WebServerScaleDownPolicy
+2023-06-08 16:25:31.957000+00:00  CREATE_COMPLETE     AWS::AutoScaling::AutoScalingGroup         WebServerGroup
+2023-06-08 16:25:31.373000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::AutoScalingGroup         WebServerGroup                                Received SUCCESS signal with UniqueId i-0e4f6ed806ab0f043
+2023-06-08 16:23:49.171000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::AutoScalingGroup         WebServerGroup                                Resource creation Initiated
+2023-06-08 16:23:48.242000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::AutoScalingGroup         WebServerGroup
+2023-06-08 16:23:46.843000+00:00  CREATE_COMPLETE     AWS::ElasticLoadBalancingV2::TargetGroup   ALBTargetGroup
+2023-06-08 16:23:38.394000+00:00  CREATE_COMPLETE     AWS::AutoScaling::LaunchConfiguration      WebServerLaunchConfig
+2023-06-08 16:23:38.093000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::LaunchConfiguration      WebServerLaunchConfig                         Resource creation Initiated
+2023-06-08 16:23:37.729000+00:00  CREATE_COMPLETE     AWS::SNS::Topic                            NotificationTopic
+2023-06-08 16:23:37.643000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::LoadBalancer  ApplicationLoadBalancer                       Resource creation Initiated
+2023-06-08 16:23:37.359000+00:00  CREATE_IN_PROGRESS  AWS::SNS::Topic                            NotificationTopic                             Resource creation Initiated
+2023-06-08 16:23:36.732000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::LaunchConfiguration      WebServerLaunchConfig
+2023-06-08 16:23:36.607000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::LoadBalancer  ApplicationLoadBalancer
+2023-06-08 16:23:35.381000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroup                    WebServerSecurityGroup
+2023-06-08 16:23:34.494000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                    WebServerSecurityGroup                        Resource creation Initiated
+2023-06-08 16:23:30.928000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::TargetGroup   ALBTargetGroup                                Resource creation Initiated
+2023-06-08 16:23:29.670000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                    WebServerSecurityGroup
+2023-06-08 16:23:29.644000+00:00  CREATE_IN_PROGRESS  AWS::SNS::Topic                            NotificationTopic
+2023-06-08 16:23:29.551000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::TargetGroup   ALBTargetGroup
+2023-06-08 16:23:25.810000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack                 tCaT-default-aef3a6-WorkloadStack-4AW8Y3Q1C4  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 08. June 2023 04:27PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: us-east-1
+StackName: tCaT-default-aef3a6-BastionStack-7AICS11TLZB0
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [EIP1].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                    LogicalResourceId                              ResourceStatusReason
+--------------------------------  ------------------  ------------------------------  ---------------------------------------------  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-06-08 16:26:09.257000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack      tCaT-default-aef3a6-BastionStack-7AICS11TLZB0  The following resource(s) failed to create: [EIP1].
+2023-06-08 16:26:07.087000+00:00  CREATE_COMPLETE     AWS::IAM::InstanceProfile       BastionHostProfile
+2023-06-08 16:24:09.039000+00:00  CREATE_COMPLETE     AWS::IAM::Policy                BastionHostPolicy
+2023-06-08 16:23:56.114000+00:00  CREATE_IN_PROGRESS  AWS::IAM::InstanceProfile       BastionHostProfile                             Resource creation Initiated
+2023-06-08 16:23:55.860000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Policy                BastionHostPolicy                              Resource creation Initiated
+2023-06-08 16:23:55.171000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Policy                BastionHostPolicy
+2023-06-08 16:23:54.749000+00:00  CREATE_IN_PROGRESS  AWS::IAM::InstanceProfile       BastionHostProfile
+2023-06-08 16:23:51.646000+00:00  CREATE_COMPLETE     AWS::IAM::Role                  BastionHostRole
+2023-06-08 16:23:47.980000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroupIngress  BastionSecurityGroupCidrIcmpIngress
+2023-06-08 16:23:47.471000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroupIngress  BastionSecurityGroupCidrIcmpIngress            Resource creation Initiated
+2023-06-08 16:23:47.275000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroupIngress  BastionSecurityGroupCidrIcmpIngress
+2023-06-08 16:23:47.260000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroupIngress  BastionSecurityGroupCidrSshIngress
+2023-06-08 16:23:46.730000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroupIngress  BastionSecurityGroupCidrSshIngress             Resource creation Initiated
+2023-06-08 16:23:46.517000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroupIngress  BastionSecurityGroupCidrSshIngress
+2023-06-08 16:23:43.766000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroup         BastionSecurityGroup
+2023-06-08 16:23:43.191000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup         BastionSecurityGroup                           Resource creation Initiated
+2023-06-08 16:23:42.636000+00:00  CREATE_COMPLETE     AWS::Logs::MetricFilter         SSHMetricFilter
+2023-06-08 16:23:42.380000+00:00  CREATE_IN_PROGRESS  AWS::Logs::MetricFilter         SSHMetricFilter                                Resource creation Initiated
+2023-06-08 16:23:41.286000+00:00  CREATE_IN_PROGRESS  AWS::Logs::MetricFilter         SSHMetricFilter
+2023-06-08 16:23:39.168000+00:00  CREATE_FAILED       AWS::EC2::EIP                   EIP1                                           Resource handler returned message: "The maximum number of addresses has been reached. (Service: Ec2, Status Code: 400, Request ID: 8cb2b85b-9a07-4b6a-adc7-75678486dcdf)" (RequestToken: 0d54b4d2-2ea4-bc6a-e50d-300e42b9a458, HandlerErrorCode: GeneralServiceException)
+2023-06-08 16:23:38.167000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup         BastionSecurityGroup
+2023-06-08 16:23:37.815000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role                  BastionHostRole                                Resource creation Initiated
+2023-06-08 16:23:37.725000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                   EIP1
+2023-06-08 16:23:37.600000+00:00  CREATE_COMPLETE     AWS::Logs::LogGroup             BastionMainLogGroup
+2023-06-08 16:23:37.390000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role                  BastionHostRole
+2023-06-08 16:23:37.285000+00:00  CREATE_IN_PROGRESS  AWS::Logs::LogGroup             BastionMainLogGroup                            Resource creation Initiated
+2023-06-08 16:23:35.994000+00:00  CREATE_IN_PROGRESS  AWS::Logs::LogGroup             BastionMainLogGroup
+2023-06-08 16:23:30.519000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack      tCaT-default-aef3a6-BastionStack-7AICS11TLZB0  Transformation succeeded
+2023-06-08 16:23:25.505000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack      tCaT-default-aef3a6-BastionStack-7AICS11TLZB0  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 08. June 2023 04:27PM
+-----------------------------------------------------------------------------
+

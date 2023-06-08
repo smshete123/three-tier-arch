@@ -1,0 +1,287 @@
+ _            _             _   
+| |_ __ _ ___| | _____ __ _| |_ 
+| __/ _` / __| |/ / __/ _` | __|
+| || (_| \__ \   < (_| (_| | |_ 
+ \__\__,_|___/_|\_\___\__,_|\__|
+                                
+
+
+version 0.9.38
+Not in terminal, reprint now using normal build-in print function.
+
+[S3: -> ] s3://tcat-a49cafa9e7b65323890a04266c6bf3ab-us-east-1/ps-workshop/screen-logs.txt
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-default-e879e9
+         ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+         ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+         ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+         ┣ region: us-east-1
+         ┗ status: CREATE_IN_PROGRESS
+[INFO   ] : ┏ stack Ⓜ tCaT-default-e879e9
+[INFO   ] : ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+[INFO   ] : ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+[INFO   ] : ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+[INFO   ] : ┣ region: us-east-1
+[INFO   ] : ┗ status: CREATE_COMPLETE 
+[INFO   ] : Reporting on arn:aws:cloudformation:us-east-1:189873127363:stack/tCaT-default-e879e9/0b12b390-061c-11ee-86e8-12e184b02d2b
+[INFO   ] : Skipping delete due to cli argument
+[INFO   ] : ┏ stack Ⓜ tCaT-default-e879e9
+[INFO   ] : ┣ stack Ⓝ tCaT-default-e879e9-VPCStack-706FN3V3TLMR
+[INFO   ] : ┣ stack Ⓝ tCaT-default-e879e9-WorkloadStack-IZMHPZO3KZ11
+[INFO   ] : ┣ stack Ⓝ tCaT-default-e879e9-BastionStack-7BK9G1S71FU7
+[INFO   ] : ┣ region: us-east-1
+[INFO   ] : ┗ status: CREATE_COMPLETE 

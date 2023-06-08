@@ -1,0 +1,21 @@
+general:
+  s3_regional_buckets: true
+project:
+  name: ps-workshop
+  shorten_stack_name: true
+  regions:
+  - us-east-1
+tests:
+  default:
+    template: ./templates/main.template.yaml
+    regions:
+    - us-east-1
+
+    parameters:
+      AvailabilityZones: "$[taskcat_genaz_2]"
+      EmailAddress: smshete@amazon.com
+      KeyPairName: threetier
+      WebserverCIDR: "0.0.0.0/0"
+      QSS3KeyPrefix: "ps-workshop/"
+      QSS3BucketRegion: "$[taskcat_current_region]"
+      QSS3BucketName: "$[taskcat_autobucket]"
